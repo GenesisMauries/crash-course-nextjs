@@ -1,7 +1,12 @@
-import React from "react";
+"use client"
+import { useRouter } from "next/navigation";
 
 const About = () => {
-  return <h1>About</h1>;
+  const router = useRouter()
+  return <section>
+    <h1>About</h1>
+    <button onClick={()=>router.push("/")}>Go home</button>
+  </section>;
 };
 
 export default About;
