@@ -41,3 +41,7 @@ Se utiliza para definir una estructura común que se aplica a todas las páginas
 - **Estructura compartida:** Permite incluir componentes comunes como menús, cabeceras, pies de página o cualquier otro elemento que debe estar presente en todas las páginas.
 - **Reutilización de código:** Facilita la reutilización de partes del layout sin tener que repetirlas en cada página.
 - **Control de contenido:** Te permite envolver el contenido específico de cada página dentro de un diseño predefinido.
+
+## Route Handlers
+
+Funciones que permiten gestionar las solicitudes HTTP de manera más directa
